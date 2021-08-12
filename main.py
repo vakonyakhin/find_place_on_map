@@ -62,13 +62,13 @@ def generate_map(coords, points):
         folium.Marker(
             location=[point['longitude'], point['latitude']],
             popup=point['title'],
-            icon=folium.Icon(color = 'blue')
+            icon=folium.Icon(color ='blue')
         ).add_to(map)
-    map.save("map1.html")
+    map.save("map.html")
 
 
 def get_map():
-    with open('map1.html') as file:
+    with open('map.html') as file:
         return file.read()
 
 
