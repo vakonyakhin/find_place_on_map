@@ -83,7 +83,6 @@ def main():
     ya_key = os.getenv('YA_API_KEY')
     input_address = input('Где Вы находитесь: ')
     coords = get_input_coordinates(input_address, ya_key)
-    print("Ваши координаты: ", coords)
     coffee_points = get_coffee_points(file)
 
     for point in coffee_points:
