@@ -1,8 +1,6 @@
 import os
 import json
 import requests
-from pprint import pprint
-from collections import defaultdict
 
 from dotenv import load_dotenv
 from geopy import distance
