@@ -9,12 +9,12 @@ Python3 should be already installed. Then use pip (or pip3, if there is a confli
 pip install -r requirements.txt
 ```
 
-# Environment variables.
+# Using environment variables.
 
-ya_key
+YA_KEY
+
 .env example:
-
-ya_key=c011g67b5df7470360ab5a34ft462d107da143a9
+YA_KEY=c011g67b5df7470360ab5a34ft462d107da143a9
 
 # How to get
 Sign up [yandex developer](https://developer.tech.yandex.ru/) and get JavaScript API и HTTP geocode KEY for free on 1000 requests per day
